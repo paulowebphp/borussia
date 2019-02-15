@@ -7,10 +7,10 @@
 		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
-		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="public/fonts/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="lib/raty/lib/jquery.raty.css">
-		<link rel="stylesheet" href="css/borussia.css">
-		<link rel="stylesheet" href="css/borussia-mobile.css">
+		<link rel="stylesheet" href="public/css/stylesheet.css">
+		<link rel="stylesheet" href="public/css/stylesheet-mobile.css">
 
 		<script src="lib/angularjs/angular.min.js"></script>
 
@@ -37,7 +37,7 @@
 			</div>
 			
 			<div class="container">
-				<img id="logotipo" src="img/borussia-logo.png" style="width:128px; heigth:146px;" alt="Logotipo">
+				<img id="logotipo" src="public/images/borussia-logo.png" style="width:128px; heigth:146px;" alt="Logotipo">
 			</div>
 
 			<div class="header-black">

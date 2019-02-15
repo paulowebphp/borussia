@@ -21,56 +21,56 @@
 				<div class="row thumbnails owl-carousel owl-theme">
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
-							<img src="img/noticia-thumb.jpg" alt="Noticia">
+							<img src="public/images/noticia-thumb.jpg" alt="Noticia">
 							<h3>Reus ipsum at domini vinculum Borussia ever hard febo</h3>
 							<time>February, 10 2019</time>
 						</div>
@@ -87,7 +87,7 @@
 							<p>Best Legionatus<small>Ipsum guerrilhum legionatum audaciousos e habilitatis in assistentium et definitum defrntum goli</small></p>
 						</div>
 						<div class="col-md-8">
-						<img src="./../img/reus.png" style="height:400px;" alt="Signal">
+						<img src="./../public/images/reus.png" style="height:400px;" alt="Signal">
 						</div>
 					</div>
 				</div>
@@ -102,7 +102,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8">
-						<img src="./../img/stadium.jpg" id="stadium" alt="Signal">
+						<img src="./../public/images/stadium.jpg" id="stadium" alt="Signal">
 						</div>
 						<div class="col-md-4">
 							<p>Bigger Calderones<small>Ultimate calderones para hacer pressionatum en oponentii. Inimigui quedam mortum de purum medum de poderosum timaçum que vien com rolum compressor est</small></p>
@@ -122,7 +122,7 @@
 							<p>Torcidum Apaixonatis<small>Uma torcidum apaixonatis por timaçum que hacen tudum por esti passionatum. Nuestra tordicum patrimonium timaçum est</small></p>
 						</div>
 						<div class="col-md-8">
-						<img src="./../img/uniform.png" style="height:400px;" alt="Signal">
+						<img src="./../public/images/uniform.png" style="height:400px;" alt="Signal">
 						</div>
 
 					</div>

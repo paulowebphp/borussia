@@ -16,9 +16,9 @@
 			<div class="row">
 				
 				<div class="player">
-					<video src="mp4/highlights.mp4" controls poster="img/highlights.jpg">
+					<video src="public/mp4/highlights.mp4" controls poster="public/images/highlights.jpg">
 						
-						<track kind="subtitles" label="Português (Brasil)" src="vtt/legendas.vtt" srclang="pt-br" default>
+						<track kind="subtitles" label="Português (Brasil)" src="public/vtt/legendas.vtt" srclang="pt-br" default>
 
 					</video>
 				</div>
@@ -44,37 +44,37 @@
 		<div class="row thumbnails">
 			<div class="item" data-video="highlights">
 				<div class="item-inner">
-					<img src="img/highlights.jpg" alt="Noticia">
+					<img src="public/images/highlights.jpg" alt="Noticia">
 					<h3>Highlights</h3>
 				</div>
 			</div>
 			<div class="item" data-video="Orlando_City_Foundation_2015">
 				<div class="item-inner">
-					<img src="img/Orlando_City_Foundation_2015.jpg" alt="Noticia">
+					<img src="public/images/Orlando_City_Foundation_2015.jpg" alt="Noticia">
 					<h3>Orlando City Foundation 2015</h3>
 				</div>
 			</div>
 			<div class="item" data-video="highlights">
 				<div class="item-inner">
-					<img src="img/highlights.jpg" alt="Noticia">
+					<img src="public/images/highlights.jpg" alt="Noticia">
 					<h3>Highlights</h3>
 				</div>
 			</div>
 			<div class="item" data-video="Orlando_City_Foundation_2015">
 				<div class="item-inner">
-					<img src="img/Orlando_City_Foundation_2015.jpg" alt="Noticia">
+					<img src="public/images/Orlando_City_Foundation_2015.jpg" alt="Noticia">
 					<h3>Orlando City Foundation 2015</h3>
 				</div>
 			</div>
 			<div class="item" data-video="highlights">
 				<div class="item-inner">
-					<img src="img/highlights.jpg" alt="Noticia">
+					<img src="public/images/highlights.jpg" alt="Noticia">
 					<h3>Highlights</h3>
 				</div>
 			</div>
 			<div class="item" data-video="Orlando_City_Foundation_2015.mp4">
 				<div class="item-inner">
-					<img src="img/Orlando_City_Foundation_2015.jpg" alt="Noticia">
+					<img src="public/images/Orlando_City_Foundation_2015.jpg" alt="Noticia">
 					<h3>Orlando City Foundation 2015</h3>
 				</div>
 			</div>
@@ -107,8 +107,8 @@ $(function(){
 	$(".thumbnails .item").on("click", function(){
 
 		$("video").attr({
-			"src":"mp4/"+$(this).data('video')+".mp4",
-			"poster":"img/"+$(this).data('video')+".jpg"
+			"src":"public/mp4/"+$(this).data('video')+".mp4",
+			"poster":"public/images/"+$(this).data('video')+".jpg"
 		});
 
 	});

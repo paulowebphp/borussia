@@ -88,7 +88,7 @@
 		<script src="lib/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 		<script src="lib/raty/lib/jquery.raty.js"></script>
-		<script src="js/efeitos.js"></script>
+		<script src="public/js/efeitos.js"></script>
 
 	</body>
 </html>
