@@ -1,5 +1,8 @@
 /*Tamanho padrão para tablets*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+	}
 	header #logotipo {
 		display: none;;
 	}
@@ -12,13 +15,19 @@
 		display:none;
 	}
 	#btn-bars, #btn-search {
-		color: #fff;
+		color: #000;
 		font-size: 22px;
 		position: absolute;
 		top: 4px;
 		background: none;
 		border: none;
 		display: block;
+	}
+	header #row-hr-1 {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 9;
 	}
 	#btn-bars {
 		left: 4px;
@@ -39,6 +48,10 @@
 	}
 	#banner h1 small {
 		font-size: 22px;
+	}
+	#new
+	{
+		min-height: 450px;
 	}
 	#news h2 {
 		font-size: 32px;
@@ -62,7 +75,7 @@
 		font-size: 48px;
 		display: block;
 		position: absolute;
-		top:120px;
+		top:170px;
 		z-index: 1;
 		outline: 0;
 	}
@@ -72,42 +85,11 @@
 	#btn-news-prev {
 		left: 20px;
 	}
-	#estatisticas {
-		height: inherit;
-	}
-	#estatisticas p {
+
+	#row-section-1 p {
 		margin-bottom: 40px;
-		margin-top: 40px;
 	}
-	#call-to-action {
-		margin-top: 69px;
-	}
-	#call-to-action hr {
-		border-width: 4px;
-	}
-	#call-to-action p {
-		margin-top: 40px;
-		margin-bottom: 40px;
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-	#call-to-action h2 {
-		font-size: 32px;
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	#call-to-action .btn {
-		min-width: 138px;
-	}
-	#call-to-action .btn-roxo {
-		float: left;
-	}
-	#call-to-action .btn-amarelo {
-		float: right;
-	}
-	#call-to-action .col-xs-6 {
-		padding: 0;
-	}
+	
 	footer {
 		margin-top: 60px;
 	}
@@ -132,11 +114,8 @@
 		margin: 0;
 	}
 	footer .list-socials {
-		position: absolute;
 		text-align: center;
 		width: 100%;
-		left: 0;
-		top: 50px;
 
 	}
 	footer .col-md-10 {
@@ -150,9 +129,7 @@
 	footer .list-socials i {
 		font-size: 30px;
 	}
-	footer .row-cinza-claro {
-		height: 157px;
-	}
+	
 	footer .btn-footer {
 		width: 100%;
 		background-color: #11171D;
@@ -170,21 +147,22 @@
 	footer .hidden-sm-up {
 		margin-top: -10px;
 	}
-	header .header-black {
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: 9;
+	
+	header #input-search-mobile{
+		color: #000;		
+	}
+	footer .page-up {
+		display: inline-block!important;
 	}
 	footer .page-up {
 		display: inline-block!important;
 	}
 	header #menu-mobile {
 		position: fixed;
-		background-color: #ffe600;
-		width: 80%;
+		background-color: #f5e51b;
+		width: 60%;
 		height: 100%;
-		left:-80%;
+		left:-60%;
 		transition: 1s;
 		z-index: 5;
 	}
@@ -208,7 +186,7 @@
 	}
 	header.open-menu #menu-mobile ul {
 		margin: 20px;
-		margin-top: 100px;
+		margin-top: 60px;
 	}
 	header.open-menu #menu-mobile li {
 		text-align: center;
@@ -223,11 +201,13 @@
 		font-weight: bold;
 		font-size: 16px;
 		padding: 18px;
-    	display: block;
+		display: block;
+		text-decoration: none;
 	}
 	header.open-menu .bar-close {
 		position: absolute;
 		bottom: 40px;
+		right: 0;
 		background-color: #11171D;
 		height: 40px;
 		width: 100%;
@@ -235,18 +215,18 @@
 	header.open-menu .bar-close .btn-close {
 		background:none;
 		border: none;
-		color: #fff;
+		color: #ffe600;
 		font-size: 22px;
 	}
 	header #input-search-mobile {
 		transition: 1s;
 		position: fixed;
-		width: 60%;
-		left: 30%;
+		width: 40%;
+		left: 36%;
 		background-color: #f5e51b;
 		border: none;
 		height: 40px;
-		color: #fff;
+		color: #000;
 		outline: 0;
 		font-size: 16px;
 	}
@@ -256,11 +236,11 @@
 	header.open-search #logotipo {
 		z-index: 9;
 	}
-	#estatisticas-black #stadium
+	#row-section-2 #stadium
 	{
 		width: 100%;
 	}
-	footer .row-cinza-claro {
+	footer .row-footer-1 {
 		min-height: 220px;
 	}
 	
@@ -285,9 +265,101 @@
 		content: "\f09a";
 		color: #11171D;
 	}
+	#row-section-1
+	{
+		height: 300px;
+	}
+
+	#row-section-1 p {
+		font-size: 36px;
+		
+	}
+	#row-section-1 p small {
+		font-weight: normal;
+		font-size: 24px;
+	}
+	
+	#row-section-1 img {
+		width: 60%;
+	}
+	#row-section-1 h1 {
+		transition:1s;
+		color: #fff;
+		top: 10px;
+		position: relative;
+		font-size: 40px;
+		text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+		font-family: 'OpenSans-Light';
+	}
+	#row-section-1 h1 small {
+		font-size: 20px;
+		display: block;
+		color: #FFF;
+		font-family: 'OpenSans';
+		font-weight: bold;
+	}
+	
+
+	#row-section-2 p {
+		font-size: 36px;
+		
+	}
+	#row-section-2 p small {
+		font-weight: normal;
+		font-size: 24px;
+	}
+	
+
+	#row-section-3 p {
+		font-size: 36px;
+		
+	}
+	#row-section-3 p small {
+		font-weight: normal;
+		font-size: 24px;
+	}
+	#row-section-3 img {
+		max-height: 230px;
+	}
 
 
-
+	
+	#row-section-4 p small {
+		font-weight: normal;
+		font-size: 24px;
+	}
+	
+	#row-section-4 img {
+		width: 60%;
+	}
+	#row-section-4 hr {
+		border-width: 4px;
+	}
+	#row-section-4 p {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: 15px;
+		margin-right: 15px;
+		font-size: 16px;
+	}
+	#row-section-4 h2 {
+		font-size: 32px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#row-section-4 .btn {
+		min-width: 138px;
+	}
+	#row-section-4 .btn-roxo {
+		float: left;
+	}
+	#row-section-4 .btn-amarelo {
+		float: right;
+	}
+	#row-section-4 .col-xs-6 {
+		padding: 0;
+	}
+	
 
 }
 

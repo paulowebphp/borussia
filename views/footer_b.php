@@ -1,6 +1,6 @@
 		<footer>
 			
-			<div class="row row-footer-1">
+			<div class="row row-cinza-claro">
 				
 				<div class="container">
 					
@@ -71,12 +71,12 @@
 
 			</div>
 
-			<div class="row row-footer-2">
+			<div class="row row-cinza-escuro">
 				
 				<div class="container copyright-mobile">
 					
-					<p class="pull-left">Copyright © Fa32 Web Services 2019. All rights reserved.</p>
-					<p class="pull-right text-roxo">Created by Jose Paulo de Carvalho C.</p>
+					<p class="pull-left">Copyright © Borussia Dortmund 2019. All rights reserved.</p>
+					<p class="pull-right text-roxo">Created by Jose Paulo de Carvalho C. during Hcode School's classes in Udemy.com</p>
 
 				</div>
 
@@ -87,9 +87,8 @@
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-		<script src="inc/config.js"></script>
+		<script src="lib/raty/lib/jquery.raty.js"></script>
 		<script src="public/js/efeitos.js"></script>
-		<script src="public/js/main.js"></script>
-		
+
 	</body>
 </html>

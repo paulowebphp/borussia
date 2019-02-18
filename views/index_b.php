@@ -1,30 +1,16 @@
 <?php include_once("header.php");?>
 
-	<section>
-		
-		<div id="row-section-1">
+		<section>
+			
+			<div id="banner">
 				
-			<div class="container">
-				
-				<div class="row">
+				<h1>Borussia Dortmund<small>Lorem mussum ipsum canas et mel</small></h1>
 
-					<div class="col-md-12">
-						<h1>Borussia Dortmund
-							<small>Lorem et Mussum ihpsum Canas et Mel</small>
-						</h1>
-					</div>
-
-				</div>
-				
 			</div>
 
-		</div>
-
-		<div id="news">
-			
-			<div class="container">
+			<div id="news" class="container">
 				
-			<div class="row text-center">
+				<div class="row text-center">
 					<h2>Latest News</h2>
 					<hr>	
 				</div>				
@@ -92,70 +78,63 @@
 				</div>
 
 			</div>
-		</div>
 
-		<div id="row-hr-2"></div>
-
-		<div id="row-section-3">
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<p>Best legionatus<small>Ipsum guerrilhum legionatum audaciousos e habilitatis in assistentium et definitum defrontum goli</small></p>
-					</div>
-					<div class="col-md-6">
-					<img src="./../public/images/home1.png" alt="Signal">
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-
-		<div id="row-hr-2"></div>
-
-		<div id="row-section-2">
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-					<img src="./../public/images/home2.jpg" alt="Signal">
-					</div>
-					<div class="col-md-6">
-						<p>Biggest calderones<small>Ultimate calderones para hacer pressionatum en oponentii. Inimigui quedam mortum de purum medum de poderosum timaçum que vien com rolum compressor est</small></p>
+			<div id="estatisticas">
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<p>Best Legionatus<small>Ipsum guerrilhum legionatum audaciousos e habilitatis in assistentium et definitum defrntum goli</small></p>
+						</div>
+						<div class="col-md-8">
+						<img src="./../public/images/reus.png" style="height:400px;" alt="Signal">
+						</div>
 					</div>
 				</div>
+
 			</div>
 
-		</div>
-
-		<div id="row-hr-2"></div>
+			<div class="header-black"></div>
 
 
-		<div id="row-section-3">
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<p>Torcidum apaixonatis<small>Uma torcidum apaixonatis por timaçum que hacen tudum por esti passionatum. Nuestra tordicum patrimonium timaçum est</small></p>
+			<div id="estatisticas-black">
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+						<img src="./../public/images/stadium.jpg" id="stadium" alt="Signal">
+						</div>
+						<div class="col-md-4">
+							<p>Bigger Calderones<small>Ultimate calderones para hacer pressionatum en oponentii. Inimigui quedam mortum de purum medum de poderosum timaçum que vien com rolum compressor est</small></p>
+						</div>
 					</div>
-					<div class="col-md-6">
-					<img src="./../public/images/home3.png" alt="Signal">
-					</div>
-
 				</div>
+
 			</div>
 
-		</div>
+			<div class="header-black"></div>
 
+			<div id="estatisticas">
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<p>Torcidum Apaixonatis<small>Uma torcidum apaixonatis por timaçum que hacen tudum por esti passionatum. Nuestra tordicum patrimonium timaçum est</small></p>
+						</div>
+						<div class="col-md-8">
+						<img src="./../public/images/uniform.png" style="height:400px;" alt="Signal">
+						</div>
 
-		<div id="row-hr-2"></div>
+					</div>
+				</div>
 
-		<div id="row-section-4">
-			
-			<div class="container">
-					
-			<div class="row text-center">
+			</div>
+
+			<div id="call-to-action">
+				
+				<div class="container">
+
+					<div class="row text-center">
 						<h2>Pedrculatum Loerem Ipsum culpatum este de criativita</h2>
 						<hr>	
 					</div>
@@ -169,24 +148,20 @@
 					<div class="text-center">
 						<div class="row row-max-400">
 							
-							<div class="col-md-6">
+							<div class="col-xs-6">
 								<a href="shop" class="btn btn-roxo">Be a Member</a>
-								
 							</div>
-
-							<div class="col-md-6">
-							
+							<div class="col-xs-6">
 								<a href="#" class="btn btn-amarelo">Send a Message</a>
 							</div>
-							
 
 						</div>
 					</div>
 
+				</div>
+
 			</div>
-		</div>
 
-
-	</section>
+		</section>
 
 <?php include_once("footer.php");?>

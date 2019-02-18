@@ -4,28 +4,30 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width:device-width, initial-scale=1">
-		<title>Landing Page</title>
-		<link rel="icon" type="image/png" href="public/images/icons/favicon.ico"/>
+		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="public/fonts/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/raty/lib/jquery.raty.css">
 		<link rel="stylesheet" href="public/css/stylesheet.css">
 		<link rel="stylesheet" href="public/css/stylesheet-mobile.css">
 
+		<script src="lib/angularjs/angular.min.js"></script>
 
 	</head>
 	<body>
-		
-	<header>
+
+		<header>
 			
-	
 			<div id="menu-mobile-mask" class="visible-xs"></div>
 
 			<div id="menu-mobile" class="visible-xs">
 				
 				<ul class="list-unstyled">
-					<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
-					
+					<li><a href="videos">Home</a></li>
+					<li><a href="videos">Lorem</a></li>
+					<li><a href="#">Ipsum</a></li>
+					<li><a href="#">Civis</a></li>
 				</ul>
 
 				<div class="bar-close">
@@ -38,7 +40,7 @@
 				<img id="logotipo" src="public/images/borussia-logo.png" style="width:128px; heigth:146px;" alt="Logotipo">
 			</div>
 
-			<div id="row-hr-1">
+			<div class="header-black">
 				
 				<div class="container">
 
@@ -57,8 +59,10 @@
 					
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
-							
+							<li><a href="index.php">Home</a></li>
+							<li><a href="videos">Lorem</a></li>
+							<li><a href="#">Ipsum</a></li>
+							<li><a href="#">Civis</a></li>
 							<li class="search">
 								<div class="input-group">
 							      <input type="search" placeholder="Buscarum..." id="input-search">
@@ -75,4 +79,3 @@
 			</div>			
 
 		</header>
-

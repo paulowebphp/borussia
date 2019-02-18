@@ -1,6 +1,10 @@
 <?php
+session_start();
 
-require 'inc/configuration.php';
+require 'inc/Sql.php';
+require 'inc/functions.php';
+require 'inc/User.php';
+require 'inc/Email.php';
 require 'inc/Slim-2.x/Slim/Slim.php';
 
 \Slim\Slim::registerAutoloader();
@@ -9,16 +13,24 @@ $app = new \Slim\Slim();
 
 
 
+/** ************** VIEWS ******************* */
 
-
-// GET route
 $app->get(
+
     '/',
-    function () {
+	function() 
+	{
 
-        require_once("views/index.php");
+		if( isset($_SESSION['iduser']) )
+		{
+			User::logout();
+			
+		}//end if
         
-    }
+		require_once("views/index.php");
+		
+    }//end function
+
 );//END route
 
 
@@ -26,19 +38,181 @@ $app->get(
 
 
 
-$app->get(
-    '/videos',
-    function () {
-        
-        require_once("views/videos.php");
-        
-    }
-);//END route
+$app->post("/emails/create", function() {
+
+	$newEmail = new Email();
+
+	if( isset($_POST["email"]) )
+	{
+		$email = $_POST["email"];
+
+	}//end if
+	
+	if( isset($_POST["name"]) )
+	{
+		$name = $_POST["name"];
+
+	}//end if
+
+	$newEmail->save( $email, $name );
+	
+	//header("Location: /	");
+	//exit;
+
+});//END route
 
 
 
 
 
 
-/******** APP RUN ************* */
+/** ************** LOGIN ******************* */
+
+
+$app->get('/admin', function() 
+{
+	$count = Email::getCount();
+
+	if( !User::checkLogin() )
+	{
+		require_once("views/admin/login.php");
+		
+	}//end if
+	else
+	{		
+		require_once("views/admin/index.php");
+		
+	}//end else
+
+});//END route
+
+
+
+
+
+
+$app->get('/admin/login', function() {
+
+	require_once("views/admin/login.php");
+
+});//END route
+
+
+
+
+
+
+$app->post('/admin/login', function() 
+{
+
+	if (!isset($_POST['email']) || $_POST['email'] == '')
+	{
+		User::setError("Preencha o seu e-mail.");
+		header("Location: /admin/login");
+		exit;
+
+	}//end if
+
+	if (!isset($_POST['password']) || $_POST['password'] == '') {
+
+		
+		User::setError("Preencha a sua senha.");
+
+	
+		header("Location: /admin/login");
+		exit;
+
+	}//end if
+
+	try 
+	{
+		$users = User::login($_POST["email"], $_POST["password"]);
+
+	}//end try
+	catch(\Exception $e) {
+
+		User::setError($e->getMessage());
+
+	}//end catch
+	
+	$count = Email::getCount();
+
+	if( !isset($_SESSION[User::SESSION]) )
+	{
+		
+		header("Location: /admin/login");
+		exit;
+
+	}//end if
+	else
+	{
+		
+		require_once("views/admin/index.php");
+
+	}//end else
+
+});//END route
+
+
+
+
+
+
+
+$app->get('/admin/logout', function() {
+
+	User::logout();
+
+	header("Location: /");
+	exit;
+
+});//END route
+
+
+
+
+
+
+
+/** ************** EMAILS ******************* */
+
+
+$app->get("/admin/emails", function(){
+
+	if( !User::checkLogin() )
+	{
+		header("Location: /admin/login");
+		exit;
+	}//end if
+
+	$emails = Email::listAll();
+	
+	require_once("views/admin/emails.php");
+
+});//END route
+
+
+
+
+
+
+
+$app->get("/admin/emails/csv", function(){
+
+	if( !User::checkLogin() )
+	{
+		header("Location: /admin/login");
+		exit;
+	}//end if
+
+	$csv = Email::generateCsv();
+
+});//END route
+
+
+
+
+
+
+/****** APP RUN ******** */
 $app->run();
