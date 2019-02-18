@@ -155,36 +155,33 @@
 			
 			<div class="container">
 					
-			<div class="row text-center">
-						<h2>Pedrculatum Loerem Ipsum culpatum este de criativita</h2>
-						<hr>	
-					</div>
+				<div class="row text-center">
+					<h2>Pedrculatum Loerem Ipsum culpatum este de criativita</h2>
+					<hr>	
+				</div>
 
-					<div class="row">
-						
-						<p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Uteni ad minima veniam, quis nostrum sed quia non numquam eius modi tempora incidunt ut. quia non numquam eius numquam eius modi temp modi tempora incidunt ut labore et dolore m.</p>
-
-					</div>
+				<div class="row">
 					
-					<div class="text-center">
-						<div class="row row-max-400">
-							
-							<div class="col-md-6">
-								<a href="shop" class="btn btn-roxo">Be a Member</a>
-								
-							</div>
+					<p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Uteni ad minima veniam, quis nostrum sed quia non numquam eius modi tempora incidunt ut. quia non numquam eius numquam eius modi temp modi tempora incidunt ut labore et dolore m.</p>
 
-							<div class="col-md-6">
-							
-								<a href="#" class="btn btn-amarelo">Send a Message</a>
-							</div>
-							
-
-						</div>
+				</div>
+			
+				
+				<div class="row text-center">
+					
+					<div class="col-md-6">
+						<a href="#" class="btn btn-roxo">Be a Member</a>
 					</div>
 
-			</div>
-		</div>
+					<div class="col-md-6">
+						<a href="#" class="btn btn-amarelo">Send a Message</a>
+					</div>
+
+				</div>
+
+			</div><!-- container -->
+
+		</div><!-- row-section-4 -->
 
 
 	</section>

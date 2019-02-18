@@ -4,7 +4,7 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width:device-width, initial-scale=1">
-		<title>Landing Page</title>
+		<title>Borussia</title>
 		<link rel="icon" type="image/png" href="public/images/icons/favicon.ico"/>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
@@ -25,6 +25,7 @@
 				
 				<ul class="list-unstyled">
 					<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
+					<li><a href="http://www.landing.fat32.com.br/">Landing Page</a></li>
 					
 				</ul>
 
@@ -58,6 +59,7 @@
 					<nav id="menu" class="pull-right">
 						<ul>
 							<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
+							<li><a href="http://www.landing.fat32.com.br/">Landing Page</a></li>
 							
 							<li class="search">
 								<div class="input-group">
