@@ -26,6 +26,7 @@
 				<ul class="list-unstyled">
 					<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
 					<li><a href="http://www.landing.fat32.com.br/">Landing Page</a></li>
+					<li><a href="http://www.code.fat32.com.br/">Code Samples</a></li>
 					
 				</ul>
 
@@ -60,6 +61,7 @@
 						<ul>
 							<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
 							<li><a href="http://www.landing.fat32.com.br/">Landing Page</a></li>
+							<li><a href="http://www.code.fat32.com.br/">Code Samples</a></li>
 							
 							<li class="search">
 								<div class="input-group">

@@ -70,7 +70,7 @@ header #logotipo {
 	position: absolute;
 	top: 20px;
 	z-index: 3;
-	left: 10%;
+	left: 6%;
 }
 .fa-search:before {
     color: #ffe600;
@@ -88,10 +88,6 @@ header #logotipo {
 	font-family: "OpenSans";
 	margin-right: 25px;
 }
-#menu li.search {
-	width: 15%;
-	
-}
 
 #menu li.search input {
 	background-color: #f1d600;
@@ -100,6 +96,7 @@ header #logotipo {
 	height: 30px;
 	line-height: 30px;
 	padding-left: 8px;
+	width: 150px;
 }
 
 #menu li.search ::-webkit-input-placeholder {
