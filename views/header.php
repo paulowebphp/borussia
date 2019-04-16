@@ -19,12 +19,14 @@
 	<header>
 			
 	
-			<div id="menu-mobile-mask" class="visible-xs"></div>
+			<div id="menu-mobile-mask" ></div>
 
-			<div id="menu-mobile" class="visible-xs">
+			<div id="menu-mobile" >
 				
 				<ul class="list-unstyled">
 					<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
+					<li><a href="http://www.e-commerce.fat32.com.br/">E-commerce</a></li>
+					<li><a href="http://www.e-book.fat32.com.br/">E-book</a></li>
 					<li><a href="http://www.landing.fat32.com.br/">Landing Page</a></li>
 					<li><a href="http://www.code.fat32.com.br/">Code Samples</a></li>
 					
@@ -40,11 +42,11 @@
 				<img id="logotipo" src="public/images/borussia-logo.png" style="width:128px; heigth:146px;" alt="Logotipo">
 			</div>
 
-			<div id="row-hr-1">
+			<div id="row-hr-1" >
 				
 				<div class="container">
 
-					<input type="search" id="input-search-mobile" class="visible-xs" placeholder="Buscarum...">
+					<input type="search" id="input-search-mobile" placeholder="Buscarum...">
 				
 					<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
 					<button id="btn-search" type="button"><i class="fa fa-search"></i></button>
@@ -60,6 +62,8 @@
 					<nav id="menu" class="pull-right">
 						<ul>
 							<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
+							<li><a href="http://www.e-commerce.fat32.com.br/">E-commerce</a></li>
+							<li><a href="http://www.e-book.fat32.com.br/">E-book</a></li>
 							<li><a href="http://www.landing.fat32.com.br/">Landing Page</a></li>
 							<li><a href="http://www.code.fat32.com.br/">Code Samples</a></li>
 							
