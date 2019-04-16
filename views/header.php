@@ -19,9 +19,9 @@
 	<header>
 			
 	
-			<div id="menu-mobile-mask" ></div>
+			<div id="menu-mobile-mask" class="container"></div>
 
-			<div id="menu-mobile" >
+			<div id="menu-mobile" class="container">
 				
 				<ul class="list-unstyled">
 					<li><a href="http://www.fat32.com.br/">Portfólio</a></li>
@@ -42,7 +42,7 @@
 				<img id="logotipo" src="public/images/borussia-logo.png" style="width:128px; heigth:146px;" alt="Logotipo">
 			</div>
 
-			<div id="row-hr-1" >
+			<div id="row-hr-1" class="container">
 				
 				<div class="container">
 
