@@ -78,6 +78,16 @@ header #logotipo {
 	color:#ffe600 ;
 	font-size:12em;
 }
+
+
+.dropdown-menu{
+	background: rgba(245, 229, 27, .96);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #171F26;
+    text-decoration: none;
+    background-color: #ffe600;
+}
 #menu {
 	margin: 50px 0;
 }
@@ -368,10 +378,7 @@ font-weight: bold;
 	text-decoration: none;
 }
 
-#menu li a:hover {
-	border: #11171D solid 1px;
-	border-radius: 8px;
-}
+
 
 footer .row {
 	width: 100%;
